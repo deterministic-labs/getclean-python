@@ -1,0 +1,19 @@
+# Part of the generated SDK of the getclean API; do not edit.
+
+from .circle import CircleParams
+from .object_with_defaults import ObjectWithDefaultsParams
+from .object_with_optional_field import ObjectWithOptionalFieldParams
+from .shape import Shape_CircleParams, Shape_SquareParams, ShapeParams
+from .square import SquareParams
+from .undiscriminated_shape import UndiscriminatedShapeParams
+
+__all__ = [
+    "CircleParams",
+    "ObjectWithDefaultsParams",
+    "ObjectWithOptionalFieldParams",
+    "ShapeParams",
+    "Shape_CircleParams",
+    "Shape_SquareParams",
+    "SquareParams",
+    "UndiscriminatedShapeParams",
+]

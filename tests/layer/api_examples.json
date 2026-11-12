@@ -1,0 +1,2879 @@
+{
+  "fetch_contents.delivered": {
+    "id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+    "outcome": {
+      "kind": "delivered",
+      "reason": "whole"
+    },
+    "notices": [],
+    "fetched_at": "2026-11-04T08:40:12Z",
+    "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+    "scope": "main",
+    "record_scope": "main",
+    "formats": [
+      "markdown"
+    ],
+    "truncated": false,
+    "markdown": "# Quarterly results\n\n<mark id=\"h1\">Revenue rose 12%</mark> to … <mark id=\"h2\">Margin expanded on lower input costs and mix.</mark> …",
+    "counts": {
+      "characters": 6210,
+      "blocks": {
+        "heading": 4,
+        "text": 22,
+        "table": 1
+      },
+      "links": {
+        "page": 9
+      }
+    },
+    "highlights": [
+      {
+        "id": "h1",
+        "query_index": 0,
+        "text": "Revenue rose 12%",
+        "basis": "exact",
+        "section_id": "s1",
+        "block_id": "b3"
+      },
+      {
+        "id": "h2",
+        "query_index": 1,
+        "text": "Margin expanded on lower input costs and mix.",
+        "basis": "judged",
+        "section_id": "s2",
+        "block_id": "b9"
+      }
+    ],
+    "summary": "Revenue rose 12% in the quarter, driven by volume in Europe; margin expanded on lower input costs and mix; guidance was raised.",
+    "hidden_text": [],
+    "left_out": [
+      {
+        "kind": "navigation",
+        "characters": 1480
+      }
+    ],
+    "source": {
+      "url": "https://example.com/q3",
+      "final_url": "https://example.com/q3",
+      "redirects": [],
+      "status_code": 200,
+      "media_type": "text/html",
+      "carrier": "web",
+      "access_kind": "open",
+      "title": "Quarterly results",
+      "authors": [],
+      "published_date": "2026-10-28",
+      "published_date_precision": "day",
+      "published_date_basis": "structured_data",
+      "modified_date": null,
+      "publisher": "Example Corp",
+      "canonical_url": null,
+      "language": "en",
+      "language_versions": [],
+      "profile": {
+        "kind": "company",
+        "role": "primary",
+        "independence": "unknown",
+        "review": {
+          "kind": "none",
+          "by": null
+        }
+      },
+      "robots": "allowed",
+      "declared_terms": [],
+      "structured_data": [
+        {
+          "@type": "NewsArticle",
+          "headline": "Quarterly results"
+        }
+      ],
+      "origins": [
+        {
+          "origin": "https://cdn.example.com",
+          "kind": "script"
+        }
+      ],
+      "visitor": {
+        "country": "DE",
+        "language": "de-DE,de;q=0.9",
+        "network": "datacenter"
+      }
+    },
+    "execution": {
+      "version": "1.0.0",
+      "configuration": "cfg-2026-11",
+      "models": [
+        {
+          "step": "highlights",
+          "version": "hl-2026-10"
+        },
+        {
+          "step": "summary",
+          "version": "sum-2026-10"
+        }
+      ],
+      "elapsed_seconds": 7.1
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "0.0500",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0090",
+        "currency": "USD"
+      },
+      "units": {
+        "contents": 1,
+        "model_steps": 2
+      },
+      "replayed": false
+    },
+    "retention": "hold",
+    "run_id": "run_default",
+    "expires_at": "2026-11-06T08:40:12Z",
+    "request_id": "req_01JzsALAAlsNsdoVz1EElr"
+  },
+  "fetch_contents.failed": {
+    "id": "cnt_7Qp2cdxxK32qkfIDrqRUE2",
+    "outcome": {
+      "kind": "failed",
+      "reason": "challenge_served",
+      "message": "A bot challenge stood where the page should be; a retry later may work on sites that do not challenge every new visitor, or a person opens the URL and uploads the saved page with captured_url."
+    },
+    "notices": [],
+    "fetched_at": "2026-11-04T08:41:03Z",
+    "truncated": false,
+    "source": {
+      "url": "https://shop.example/offer",
+      "final_url": "https://shop.example/offer",
+      "redirects": [],
+      "status_code": 403,
+      "media_type": "text/html",
+      "carrier": "web",
+      "access_kind": "open",
+      "title": "Just a moment",
+      "authors": [],
+      "published_date": null,
+      "modified_date": null,
+      "publisher": null,
+      "canonical_url": null,
+      "language": "en",
+      "language_versions": [],
+      "profile": {
+        "kind": "marketplace",
+        "role": "primary",
+        "independence": "unknown",
+        "review": {
+          "kind": "none",
+          "by": null
+        }
+      },
+      "robots": "allowed",
+      "declared_terms": [],
+      "structured_data": [],
+      "origins": [
+        {
+          "origin": "https://challenges.example",
+          "kind": "script"
+        }
+      ],
+      "visitor": {
+        "country": "DE",
+        "language": "de-DE,de;q=0.9",
+        "network": "datacenter"
+      }
+    },
+    "execution": {
+      "version": "1.0.0",
+      "configuration": "cfg-2026-11",
+      "models": [],
+      "elapsed_seconds": 2.4
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "0.0500",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0000",
+        "currency": "USD"
+      },
+      "units": {},
+      "replayed": false
+    },
+    "retention": "hold",
+    "run_id": "run_default",
+    "expires_at": "2026-11-06T08:41:03Z",
+    "request_id": "req_01KXuaBXEPybVuXmnCI9Bl"
+  },
+  "list_contents.first-page": {
+    "contents": [
+      {
+        "id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+        "outcome": {
+          "kind": "delivered",
+          "reason": "whole"
+        },
+        "notices": [],
+        "fetched_at": "2026-11-04T08:40:12Z",
+        "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+        "scope": "main",
+        "record_scope": "main",
+        "formats": [],
+        "truncated": false,
+        "counts": {
+          "characters": 6210,
+          "blocks": {
+            "heading": 4,
+            "text": 22,
+            "table": 1
+          },
+          "links": {
+            "page": 9
+          }
+        },
+        "source": {
+          "url": "https://example.com/q3",
+          "final_url": "https://example.com/q3",
+          "title": "Quarterly results",
+          "published_date": "2026-10-28"
+        },
+        "execution": {
+          "version": "1.0.0",
+          "configuration": "cfg-2026-11",
+          "models": [
+            {
+              "step": "highlights",
+              "version": "hl-2026-10"
+            },
+            {
+              "step": "summary",
+              "version": "sum-2026-10"
+            }
+          ],
+          "elapsed_seconds": 7.1
+        },
+        "retention": "hold",
+        "run_id": "run_default",
+        "expires_at": "2026-11-06T08:40:12Z"
+      }
+    ],
+    "notices": [],
+    "request_id": "req_01Sof5z2SAa45Wc4HZYpfe"
+  },
+  "get_contents.delivered": {
+    "id": "cnt_5Gh7cdyeVQ6qoJhBFE31L1",
+    "outcome": {
+      "kind": "delivered",
+      "reason": "sections_only"
+    },
+    "notices": [],
+    "fetched_at": "2026-11-04T08:50:30Z",
+    "fingerprint": "sha-256=:Vn2VtrGw48PmhVZSc0+War4NLekU3Ecg5FLbdwF1nMM=:",
+    "scope": "main",
+    "record_scope": "main",
+    "formats": [
+      "markdown"
+    ],
+    "truncated": false,
+    "markdown": "# Annual report 2025\n\n…the whole text under max_characters 200000…",
+    "counts": {
+      "characters": 61200,
+      "blocks": {
+        "heading": 14,
+        "text": 120,
+        "table": 6
+      },
+      "links": {
+        "page": 40
+      }
+    },
+    "hidden_text": [],
+    "left_out": [
+      {
+        "kind": "navigation",
+        "characters": 1480
+      }
+    ],
+    "source": {
+      "url": "https://example.com/annual-2025",
+      "final_url": "https://example.com/annual-2025",
+      "redirects": [],
+      "status_code": 200,
+      "media_type": "text/html",
+      "carrier": "web",
+      "access_kind": "open",
+      "title": "Annual report 2025",
+      "authors": [],
+      "publisher": "Example Corp",
+      "canonical_url": null,
+      "published_date": "2026-03-12",
+      "published_date_precision": "day",
+      "published_date_basis": "structured_data",
+      "modified_date": null,
+      "language": "en",
+      "language_versions": [],
+      "profile": {
+        "kind": "company",
+        "role": "primary",
+        "independence": "unknown",
+        "review": {
+          "kind": "none",
+          "by": null
+        }
+      },
+      "robots": "allowed",
+      "declared_terms": [],
+      "structured_data": [],
+      "origins": [],
+      "visitor": {
+        "country": "DE",
+        "language": "de-DE,de;q=0.9",
+        "network": "datacenter"
+      }
+    },
+    "execution": {
+      "version": "1.0.0",
+      "configuration": "cfg-2026-11",
+      "models": [],
+      "elapsed_seconds": 9.0
+    },
+    "retention": "hold",
+    "run_id": "run_default",
+    "expires_at": "2026-11-06T12:00:00Z",
+    "request_id": "req_01PaufBlzLM6CZzXNwUinf"
+  },
+  "get_section.fits": {
+    "contents_id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+    "final_url": "https://example.com/q3",
+    "fetched_at": "2026-11-04T08:40:12Z",
+    "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+    "scope": "main",
+    "version": "1.0.0",
+    "configuration": "cfg-2026-11",
+    "expires_at": "2026-11-06T08:40:12Z",
+    "section": {
+      "id": "s2",
+      "title": "Margin",
+      "level": 2,
+      "characters": 1810,
+      "basis": "structure"
+    },
+    "formats": [
+      "markdown"
+    ],
+    "markdown": "## Margin\n\n…",
+    "truncated": false,
+    "notices": [],
+    "request_id": "req_01JgELUWGGDGlc96clfpJQ"
+  },
+  "list_blocks.first-page": {
+    "contents_id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+    "final_url": "https://example.com/q3",
+    "fetched_at": "2026-11-04T08:40:12Z",
+    "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+    "scope": "main",
+    "version": "1.0.0",
+    "configuration": "cfg-2026-11",
+    "expires_at": "2026-11-06T08:40:12Z",
+    "blocks": [
+      {
+        "id": "b7",
+        "kind": "table",
+        "section_id": "s2",
+        "characters": 412,
+        "links": [],
+        "highlight_ids": [],
+        "table": {
+          "caption": null,
+          "rows": [
+            [
+              "Quarter",
+              "Margin"
+            ],
+            [
+              "Q3",
+              "41.2%"
+            ]
+          ],
+          "spans": [],
+          "header_rows": [
+            0
+          ],
+          "header_columns": [],
+          "basis": "structure"
+        }
+      }
+    ],
+    "notices": [],
+    "request_id": "req_01J3WbmHqruHQMHIwlFrMB"
+  },
+  "list_links.first-page": {
+    "contents_id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+    "final_url": "https://example.com/q3",
+    "fetched_at": "2026-11-04T08:40:12Z",
+    "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+    "scope": "main",
+    "version": "1.0.0",
+    "configuration": "cfg-2026-11",
+    "expires_at": "2026-11-06T08:40:12Z",
+    "links": [
+      {
+        "url": "https://example.com/q3/report.pdf",
+        "text": "Full report",
+        "kind": "file",
+        "external": false,
+        "block_id": "b12",
+        "section_id": "s3"
+      }
+    ],
+    "notices": [],
+    "request_id": "req_01Jp0SRsqpJGQ9hFdqVC27"
+  },
+  "upload_contents.delivered": {
+    "contents": {
+      "id": "cnt_2Kp0zzrSBNSNtgjapZm9pq",
+      "outcome": {
+        "kind": "delivered",
+        "reason": "whole"
+      },
+      "notices": [],
+      "fetched_at": "2026-11-04T10:05:00Z",
+      "fingerprint": "sha-256=:Ab3QtW7hCl7ACP+qfkR6P97Od1HtkFFDIcl9B4pPos0=:",
+      "scope": "main",
+      "record_scope": "main",
+      "formats": [
+        "markdown"
+      ],
+      "truncated": false,
+      "markdown": "# Minutes of the meeting…",
+      "counts": {
+        "characters": 18400,
+        "blocks": {
+          "heading": 6,
+          "text": 40
+        },
+        "links": {}
+      },
+      "source": {
+        "redirects": [],
+        "media_type": "application/pdf",
+        "carrier": "upload",
+        "filename": "minutes.pdf",
+        "document_digest": "sha-256=:7HqC7GihbMvNe0QRGihXoSzWNR2cLpquMihXOseZoSw=:",
+        "title": "Minutes",
+        "authors": [],
+        "published_date": "2026-09-01",
+        "published_date_precision": "day",
+        "published_date_basis": "document_properties",
+        "modified_date": null,
+        "language": "en",
+        "language_versions": [],
+        "robots": "not_applicable",
+        "declared_terms": [],
+        "structured_data": [],
+        "origins": []
+      },
+      "pages": {
+        "count": 10,
+        "parsed_count": 10,
+        "failed_pages": [],
+        "recognized": [],
+        "pictured": []
+      },
+      "execution": {
+        "version": "1.0.0",
+        "configuration": "cfg-2026-11",
+        "models": [],
+        "elapsed_seconds": 3.2
+      },
+      "cost": {
+        "ceiling": {
+          "amount": "1.0000",
+          "currency": "USD"
+        },
+        "actual": {
+          "amount": "0.0150",
+          "currency": "USD"
+        },
+        "units": {
+          "contents": 1,
+          "document_pages": 10
+        },
+        "replayed": false
+      },
+      "retention": "hold",
+      "run_id": "run_default",
+      "expires_at": "2026-11-06T10:05:00Z",
+      "request_id": "req_01MWhgMG0UHPXXGtnjhJJO"
+    },
+    "request_id": "req_01MWhgMG0UHPXXGtnjhJJO"
+  },
+  "upload_contents.job": {
+    "job": {
+      "id": "job_8Rt2mqXKclxu58MCwLkSCV",
+      "kind": "upload_contents",
+      "state": "running",
+      "finished": false,
+      "stage": "recognizing",
+      "counts": {
+        "parsed_count": 41,
+        "failed_count": 0,
+        "remaining_count": 271
+      },
+      "cost": {
+        "ceiling": {
+          "amount": "1.0000",
+          "currency": "USD"
+        },
+        "actual": {
+          "amount": "0.0610",
+          "currency": "USD"
+        },
+        "units": {
+          "contents": 1,
+          "document_pages": 41,
+          "recognized_pages": 3
+        },
+        "replayed": false
+      },
+      "retry_after_seconds": 20,
+      "created_at": "2026-11-04T10:02:11Z",
+      "updated_at": "2026-11-04T10:02:41Z",
+      "request_id": "req_01LyBFDAgNmn3TTbQ2Fe4r"
+    },
+    "request_id": "req_01LyBFDAgNmn3TTbQ2Fe4r"
+  },
+  "list_jobs.first-page": {
+    "jobs": [
+      {
+        "id": "job_8Rt2mqXKclxu58MCwLkSCV",
+        "kind": "upload_contents",
+        "state": "completed",
+        "finished": true,
+        "counts": {
+          "parsed_count": 310,
+          "failed_count": 2,
+          "remaining_count": 0
+        },
+        "cost": {
+          "ceiling": {
+            "amount": "1.0000",
+            "currency": "USD"
+          },
+          "actual": {
+            "amount": "0.3300",
+            "currency": "USD"
+          },
+          "units": {
+            "contents": 1,
+            "document_pages": 310,
+            "recognized_pages": 3
+          },
+          "replayed": false
+        },
+        "outcome": {
+          "kind": "partial",
+          "reason": "pages_failed"
+        },
+        "contents_id": "cnt_f9a1LknFzePvIKv1pEkejs",
+        "created_at": "2026-11-04T10:02:11Z",
+        "updated_at": "2026-11-04T10:14:52Z",
+        "expires_at": "2026-12-04T10:14:52Z",
+        "request_id": "req_01RcyYPWPnGlycDKoB9AfI"
+      }
+    ],
+    "notices": [],
+    "request_id": "req_01RcyYPWPnGlycDKoB9AfI"
+  },
+  "get_job.completed": {
+    "id": "job_8Rt2mqXKclxu58MCwLkSCV",
+    "kind": "upload_contents",
+    "state": "completed",
+    "finished": true,
+    "counts": {
+      "parsed_count": 310,
+      "failed_count": 2,
+      "remaining_count": 0
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "1.0000",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.3300",
+        "currency": "USD"
+      },
+      "units": {
+        "contents": 1,
+        "document_pages": 310,
+        "recognized_pages": 3
+      },
+      "replayed": false
+    },
+    "outcome": {
+      "kind": "partial",
+      "reason": "pages_failed"
+    },
+    "contents_id": "cnt_f9a1LknFzePvIKv1pEkejs",
+    "created_at": "2026-11-04T10:02:11Z",
+    "updated_at": "2026-11-04T10:14:52Z",
+    "expires_at": "2026-12-04T10:14:52Z",
+    "request_id": "req_01Qm89u0cStrgTL7bxmqKa"
+  },
+  "cancel_job.canceled": {
+    "id": "job_3ZYgQAhOBQmM5xiilC8Fj9",
+    "kind": "upload_contents",
+    "state": "canceled",
+    "finished": true,
+    "counts": {
+      "parsed_count": 41,
+      "failed_count": 0,
+      "remaining_count": 271
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "1.0000",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0610",
+        "currency": "USD"
+      },
+      "units": {
+        "contents": 1,
+        "document_pages": 41,
+        "recognized_pages": 3
+      },
+      "replayed": false
+    },
+    "outcome": {
+      "kind": "partial",
+      "reason": "canceled"
+    },
+    "contents_id": "cnt_3xiMwacMbgXiIanT2iBPcB",
+    "created_at": "2026-11-04T10:02:11Z",
+    "updated_at": "2026-11-04T10:03:05Z",
+    "expires_at": "2026-12-04T10:03:05Z",
+    "request_id": "req_01Q2Eg6uJmHGdKZo83Xpje"
+  },
+  "fetch_contents_batch.mixed": {
+    "counts": {
+      "delivered": 2,
+      "partial": 0,
+      "failed": 0,
+      "refused": 0,
+      "needs_person": 0,
+      "skipped": 1
+    },
+    "results": [
+      {
+        "index": 0,
+        "label": "a",
+        "contents": {
+          "id": "cnt_1aQXCj1gfV92qewVcOExbP",
+          "outcome": {
+            "kind": "delivered",
+            "reason": "whole"
+          },
+          "notices": [],
+          "fetched_at": "2026-11-04T09:12:00Z",
+          "fingerprint": "sha-256=:Nq4iU56FPWeajZrOTZ7lW1KHecsKmVU+O6hc5H0r3RE=:",
+          "scope": "main",
+          "record_scope": "main",
+          "formats": [
+            "json"
+          ],
+          "truncated": false,
+          "blocks": [
+            {
+              "id": "b4",
+              "kind": "table",
+              "section_id": "s1",
+              "characters": 58,
+              "links": [],
+              "highlight_ids": [],
+              "table": {
+                "caption": "Revenue by year",
+                "rows": [
+                  [
+                    "Year",
+                    "Revenue"
+                  ],
+                  [
+                    "2024",
+                    "3.7 bn"
+                  ],
+                  [
+                    "2025",
+                    "4.1 bn"
+                  ]
+                ],
+                "spans": [],
+                "header_rows": [
+                  0
+                ],
+                "header_columns": [],
+                "basis": "structure"
+              }
+            }
+          ],
+          "counts": {
+            "characters": 5120,
+            "blocks": {
+              "heading": 3,
+              "text": 15,
+              "table": 1
+            },
+            "links": {
+              "page": 6
+            }
+          },
+          "hidden_text": [],
+          "left_out": [
+            {
+              "kind": "navigation",
+              "characters": 900
+            }
+          ],
+          "source": {
+            "url": "https://a.example/report",
+            "final_url": "https://a.example/report",
+            "redirects": [],
+            "status_code": 200,
+            "media_type": "text/html",
+            "carrier": "web",
+            "access_kind": "open",
+            "title": "Annual report",
+            "authors": [],
+            "published_date": "2026-03-02",
+            "published_date_precision": "day",
+            "published_date_basis": "structured_data",
+            "modified_date": null,
+            "publisher": "A Example",
+            "canonical_url": null,
+            "language": "en",
+            "language_versions": [],
+            "profile": {
+              "kind": "company",
+              "role": "primary",
+              "independence": "unknown",
+              "review": {
+                "kind": "none",
+                "by": null
+              }
+            },
+            "robots": "allowed",
+            "declared_terms": [],
+            "structured_data": [],
+            "origins": [],
+            "visitor": {
+              "country": "DE",
+              "language": "de-DE,de;q=0.9",
+              "network": "datacenter"
+            }
+          },
+          "execution": {
+            "version": "1.0.0",
+            "configuration": "cfg-2026-11",
+            "models": [],
+            "elapsed_seconds": 5.8
+          },
+          "cost": {
+            "ceiling": {
+              "amount": "0.0050",
+              "currency": "USD"
+            },
+            "actual": {
+              "amount": "0.0050",
+              "currency": "USD"
+            },
+            "units": {
+              "contents": 1
+            },
+            "replayed": false
+          },
+          "retention": "hold",
+          "run_id": "run_default",
+          "expires_at": "2026-11-06T09:12:00Z",
+          "request_id": "req_01Jx0V1CDhYS12ULqNUtDm"
+        }
+      },
+      {
+        "index": 1,
+        "label": "b",
+        "contents": {
+          "id": "cnt_2bLpzRvKxOEx0I72jKoQSw",
+          "outcome": {
+            "kind": "delivered",
+            "reason": "unchanged"
+          },
+          "notices": [],
+          "fetched_at": "2026-11-04T09:12:00Z",
+          "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+          "scope": "main",
+          "record_scope": "main",
+          "formats": [],
+          "truncated": false,
+          "source": {
+            "url": "https://b.example/filing",
+            "final_url": "https://b.example/filing",
+            "redirects": [],
+            "status_code": 200,
+            "media_type": "text/html",
+            "carrier": "web",
+            "access_kind": "open",
+            "title": "Annual filing 2025",
+            "authors": [],
+            "published_date": "2026-02-14",
+            "published_date_precision": "day",
+            "published_date_basis": "meta_tag",
+            "modified_date": null,
+            "publisher": "B Example",
+            "canonical_url": null,
+            "language": "en",
+            "language_versions": [],
+            "profile": {
+              "kind": "company",
+              "role": "primary",
+              "independence": "unknown",
+              "review": {
+                "kind": "none",
+                "by": null
+              }
+            },
+            "robots": "allowed",
+            "declared_terms": [],
+            "structured_data": [],
+            "origins": [],
+            "visitor": {
+              "country": "DE",
+              "language": "de-DE,de;q=0.9",
+              "network": "datacenter"
+            }
+          },
+          "execution": {
+            "version": "1.0.0",
+            "configuration": "cfg-2026-11",
+            "models": [],
+            "elapsed_seconds": 6.1
+          },
+          "cost": {
+            "ceiling": {
+              "amount": "0.0050",
+              "currency": "USD"
+            },
+            "actual": {
+              "amount": "0.0050",
+              "currency": "USD"
+            },
+            "units": {
+              "contents": 1
+            },
+            "replayed": false
+          },
+          "retention": "hold",
+          "run_id": "run_default",
+          "expires_at": "2026-11-06T09:12:01Z",
+          "request_id": "req_01Jx0V1CDhYS12ULqNUtDm"
+        }
+      },
+      {
+        "index": 2,
+        "label": "c",
+        "problem": {
+          "type": "https://api.getclean.ai/problems/destination-refused",
+          "title": "The destination is refused",
+          "detail": "The address is not globally reachable.",
+          "instance": "https://api.getclean.ai/requests/req_01Jx0V1CDhYS12ULqNUtDm/items/2",
+          "request_id": "req_01Jx0V1CDhYS12ULqNUtDm",
+          "who_must_act": "caller",
+          "retryable": false
+        }
+      }
+    ],
+    "cost": {
+      "ceiling": {
+        "amount": "0.1000",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0100",
+        "currency": "USD"
+      },
+      "units": {
+        "contents": 2
+      },
+      "replayed": false
+    },
+    "request_id": "req_01Jx0V1CDhYS12ULqNUtDm"
+  },
+  "highlight_contents.found": {
+    "contents_id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+    "final_url": "https://example.com/q3",
+    "fetched_at": "2026-11-04T08:40:12Z",
+    "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+    "scope": "main",
+    "version": "1.0.0",
+    "configuration": "cfg-2026-11",
+    "expires_at": "2026-11-06T08:40:12Z",
+    "highlights": [
+      {
+        "id": "h1",
+        "query_index": 0,
+        "text": "Revenue rose 12%",
+        "basis": "exact",
+        "section_id": "s1",
+        "block_id": "b3"
+      }
+    ],
+    "formats": [],
+    "truncated": false,
+    "execution": {
+      "version": "1.0.0",
+      "configuration": "cfg-2026-11",
+      "models": [
+        {
+          "step": "highlights",
+          "version": "hl-2026-10"
+        }
+      ],
+      "elapsed_seconds": 1.4
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "0.0020",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0020",
+        "currency": "USD"
+      },
+      "units": {
+        "model_steps": 1
+      },
+      "replayed": false
+    },
+    "notices": [
+      {
+        "code": "highlight_not_found",
+        "message": "No block bears on the string.",
+        "field": "highlights",
+        "pointer": "/highlights/1"
+      }
+    ],
+    "request_id": "req_01JIuousU3aZV7sHAB3vEy"
+  },
+  "fill_schema.filled": {
+    "contents_id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+    "final_url": "https://example.com/q3",
+    "fetched_at": "2026-11-04T08:40:12Z",
+    "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+    "scope": "main",
+    "version": "1.0.0",
+    "configuration": "cfg-2026-11",
+    "expires_at": "2026-11-06T08:40:12Z",
+    "schema_values": {
+      "revenue_growth": "12%"
+    },
+    "schema_statuses": {
+      "/revenue_growth": {
+        "status": "found",
+        "text": "Revenue rose 12% to EUR 4.1 bn",
+        "section_id": "s1",
+        "block_id": "b3"
+      },
+      "/dividend": {
+        "status": "absent"
+      }
+    },
+    "execution": {
+      "version": "1.0.0",
+      "configuration": "cfg-2026-11",
+      "models": [
+        {
+          "step": "json_schema",
+          "version": "fill-2026-10"
+        }
+      ],
+      "elapsed_seconds": 2.3
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "0.0020",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0020",
+        "currency": "USD"
+      },
+      "units": {
+        "model_steps": 1
+      },
+      "replayed": false
+    },
+    "notices": [],
+    "request_id": "req_01Jkf30AHpVn2m9UKIRfWE"
+  },
+  "summarize_contents.summary": {
+    "contents_id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+    "final_url": "https://example.com/q3",
+    "fetched_at": "2026-11-04T08:40:12Z",
+    "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+    "scope": "main",
+    "version": "1.0.0",
+    "configuration": "cfg-2026-11",
+    "expires_at": "2026-11-06T08:40:12Z",
+    "summary": "Revenue rose 12% in the quarter, driven by volume in Europe; margin expanded on lower input costs and mix; guidance was raised.",
+    "execution": {
+      "version": "1.0.0",
+      "configuration": "cfg-2026-11",
+      "models": [
+        {
+          "step": "summary",
+          "version": "sum-2026-10"
+        }
+      ],
+      "elapsed_seconds": 1.9
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "0.0020",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0020",
+        "currency": "USD"
+      },
+      "units": {
+        "model_steps": 1
+      },
+      "replayed": false
+    },
+    "notices": [],
+    "request_id": "req_01Js1UX1k8Axr2vRanQO5u"
+  },
+  "compare_contents.changed": {
+    "contents_id": "cnt_9Zze6X8RDFg2XxyKyLlV5T",
+    "expires_at": "2026-11-13T08:40:02Z",
+    "baseline_contents_id": "cnt_3Fk9abaUhNX7t2eKkgfd3e",
+    "current": {
+      "fetched_at": "2026-11-11T08:40:02Z",
+      "fingerprint": "sha-256=:Rt11HNu+jiwX5K846APgS7Sri/ToHiTmp+MxA8fDhrM=:",
+      "verified": true
+    },
+    "baseline": {
+      "fetched_at": "2026-11-04T08:40:12Z",
+      "fingerprint": "sha-256=:kw4QGoYGxOYpZ0EZGL+nxMfFUXfrxcp+P0M4EOrEiH4=:",
+      "verified": true
+    },
+    "changed": true,
+    "counts": {
+      "added": 0,
+      "removed": 0,
+      "changed": 1,
+      "moved": 0
+    },
+    "changes": [
+      {
+        "kind": "changed",
+        "block_kind": "table",
+        "before": {
+          "section_id": "s2",
+          "block_id": "b7",
+          "text": "| Q3 | 41.2% |"
+        },
+        "after": {
+          "section_id": "s2",
+          "block_id": "b7",
+          "text": "| Q3 | 41.6% |"
+        },
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "before_text": "41.2%",
+            "after_text": "41.6%"
+          }
+        ]
+      }
+    ],
+    "notices": [],
+    "request_id": "req_01JONfNiPNrnysSRQjsH2k"
+  },
+  "get_limits.limits": {
+    "balance": {
+      "amount": "42.1000",
+      "currency": "USD"
+    },
+    "usage": {
+      "starts_at": "2026-11-01T00:00:00Z",
+      "ends_at": "2026-12-01T00:00:00Z",
+      "units": {
+        "contents": 1840,
+        "model_steps": 212,
+        "searches": 96
+      },
+      "spent": {
+        "amount": "17.9000",
+        "currency": "USD"
+      }
+    },
+    "prices": {
+      "contents": {
+        "amount": "0.0050",
+        "currency": "USD"
+      },
+      "model_steps": {
+        "amount": "0.0020",
+        "currency": "USD"
+      },
+      "screenshots": {
+        "amount": "0.0010",
+        "currency": "USD"
+      },
+      "document_pages": {
+        "amount": "0.0010",
+        "currency": "USD"
+      },
+      "recognized_pages": {
+        "amount": "0.0050",
+        "currency": "USD"
+      },
+      "searches": {
+        "amount": "0.0100",
+        "currency": "USD"
+      },
+      "datasource_queries": {
+        "amount": "0.0010",
+        "currency": "USD"
+      }
+    },
+    "caps": {
+      "call_cap": {
+        "amount": "0.0500",
+        "currency": "USD"
+      }
+    },
+    "rates": {
+      "requests_per_minute": 600,
+      "concurrency": 20,
+      "resets_at": "2026-11-05T09:01:00Z"
+    },
+    "bounds": {
+      "contents": {
+        "max_characters": {
+          "min": 0,
+          "max": 1000000,
+          "default_value": 20000,
+          "excluded_min": 1,
+          "excluded_max": 999
+        },
+        "list_blocks.max_characters": {
+          "min": 1000,
+          "max": 1000000,
+          "default_value": 20000
+        },
+        "max_total_characters": {
+          "min": 1000,
+          "max": 2000000,
+          "default_value": 200000
+        },
+        "wait_seconds": {
+          "min": 5,
+          "max": 90,
+          "default_value": 30
+        },
+        "get_job.wait_seconds": {
+          "min": 0,
+          "max": 90,
+          "default_value": 0
+        },
+        "page_size": {
+          "min": 1,
+          "max": 200,
+          "default_value": 50
+        },
+        "items": {
+          "min": 1,
+          "max": 20
+        },
+        "highlights": {
+          "min": 1,
+          "max": 5
+        },
+        "recognition_languages": {
+          "min": 1,
+          "max": 10
+        },
+        "call_seconds": {
+          "max": 110
+        },
+        "batch_seconds": {
+          "max": 600
+        },
+        "queue_seconds": {
+          "max": 30
+        },
+        "model_step_seconds": {
+          "max": 20
+        },
+        "screenshot_seconds": {
+          "max": 15
+        },
+        "screenshot_bytes": {
+          "max": 20000000
+        },
+        "job_seconds": {
+          "max": 1800
+        },
+        "read_seconds": {
+          "max": 10
+        },
+        "page_bytes": {
+          "max": 20000000
+        },
+        "document_bytes": {
+          "max": 104857600
+        },
+        "document_base64_bytes": {
+          "max": 20971520
+        },
+        "document_pages": {
+          "max": 2000
+        },
+        "document_page_characters": {
+          "default_value": 5000
+        },
+        "body_bytes": {
+          "max": 256000
+        },
+        "batch_body_bytes": {
+          "max": 4194304
+        },
+        "compare_body_bytes": {
+          "max": 8388608
+        },
+        "redirects": {
+          "max": 10
+        },
+        "links": {
+          "max": 1000
+        },
+        "section_rows": {
+          "max": 200
+        },
+        "highlight_occurrences": {
+          "max": 50
+        },
+        "summary_characters": {
+          "max": 1500
+        },
+        "structured_data_bytes": {
+          "max": 64000
+        },
+        "recognition_confidence_min": {
+          "min": 0.6
+        },
+        "version_notice_days": {
+          "default_value": 90
+        }
+      },
+      "search": {
+        "max_candidates": {
+          "min": 1,
+          "max": 50,
+          "default_value": 10
+        },
+        "max_per_datasource": {
+          "min": 1,
+          "max": 100,
+          "default_value": 10
+        },
+        "max_excerpt_characters": {
+          "min": 0,
+          "max": 4000,
+          "default_value": 600
+        },
+        "max_total_characters": {
+          "min": 1000,
+          "max": 200000,
+          "default_value": 40000
+        },
+        "wait_seconds": {
+          "min": 0.2,
+          "max": 60,
+          "default_value": 10
+        },
+        "get_search.page_size": {
+          "min": 1,
+          "max": 50
+        },
+        "list_datasources.page_size": {
+          "min": 1,
+          "max": 200,
+          "default_value": 50
+        },
+        "items": {
+          "min": 1,
+          "max": 20
+        },
+        "datasources": {
+          "min": 1,
+          "max": 10
+        },
+        "alternate_queries": {
+          "min": 1,
+          "max": 10
+        },
+        "call_seconds": {
+          "max": 60
+        },
+        "batch_seconds": {
+          "max": 300
+        },
+        "queue_seconds": {
+          "max": 30
+        },
+        "model_step_seconds": {
+          "max": 20
+        },
+        "body_bytes": {
+          "max": 256000
+        },
+        "batch_body_bytes": {
+          "max": 4194304
+        }
+      }
+    },
+    "document_media_types": [
+      "application/pdf",
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "application/msword",
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "application/vnd.ms-excel",
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "application/vnd.oasis.opendocument.text",
+      "application/epub+zip",
+      "application/rtf",
+      "text/markdown",
+      "text/csv",
+      "text/html",
+      "application/xhtml+xml",
+      "application/xml",
+      "application/json",
+      "application/yaml",
+      "text/plain",
+      "image/png",
+      "image/jpeg",
+      "image/tiff",
+      "image/webp",
+      "image/heic"
+    ],
+    "exits": [
+      "DE",
+      "FR",
+      "GB",
+      "US"
+    ],
+    "recognition_languages": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "it",
+      "nl",
+      "pt",
+      "tr"
+    ],
+    "archives": [
+      "Wayback Machine"
+    ],
+    "default_exit": "DE",
+    "policy": {
+      "deterministic_only": false,
+      "safe_search": "moderate",
+      "retention": "hold",
+      "allowed_domains": [],
+      "blocked_domains": [],
+      "refuse_credential_urls": false
+    },
+    "versions": [
+      {
+        "version": "1.0.0",
+        "released_at": "2026-10-01T00:00:00Z",
+        "changes_url": "https://api.getclean.ai/versions/1.0.0"
+      }
+    ],
+    "current_version": "1.0.0",
+    "version_minimum_days": 90,
+    "request_id": "req_01ZWyyr8KwLQuLkEAedYvD"
+  },
+  "search.delivered": {
+    "id": "srch_4HmUunqCCXquleKVCosqFG",
+    "retention": "hold",
+    "outcome": {
+      "kind": "delivered",
+      "reason": "candidates"
+    },
+    "notices": [],
+    "coverage_gaps": [],
+    "candidates": [
+      {
+        "id": "cand_a1dYqVUaEDEMqh7Qgn8yip",
+        "url": "https://eur-lex.example/ai-act",
+        "final_url": "https://eur-lex.example/ai-act",
+        "title": "Regulation (EU) 2024/1689",
+        "language": "en",
+        "media_type": "text/html",
+        "source_profile": {
+          "kind": "state",
+          "role": "primary",
+          "independence": "unknown",
+          "review": {
+            "kind": "none",
+            "by": null
+          }
+        },
+        "copy_count": 2,
+        "language_versions": [],
+        "carrier": "web",
+        "published_date": "2024-07-12",
+        "published_date_basis": "structured_data",
+        "published_date_precision": "day",
+        "access": {
+          "kind": "open",
+          "declared_terms": [],
+          "robots": "allowed"
+        },
+        "identifier_matches": [],
+        "relevance_score": 0.93,
+        "excerpts": [
+          {
+            "text": "Providers of AI systems … shall ensure …",
+            "wording_index": 0,
+            "origin": "snippet",
+            "truncated": false,
+            "section_id": "s4",
+            "block_id": "b31"
+          }
+        ],
+        "matches": [
+          {
+            "wording_index": 0,
+            "datasource_id": "web",
+            "rank": 1
+          }
+        ],
+        "fetch_cost": {
+          "amount": "0.0050",
+          "currency": "USD"
+        },
+        "contents": {
+          "id": "cnt_8Lq5XFriyaJ0jEc2oPNx6E",
+          "outcome": {
+            "kind": "delivered",
+            "reason": "sections_only"
+          },
+          "notices": [],
+          "fetched_at": "2026-11-05T09:00:03Z",
+          "fingerprint": "sha-256=:Zt4DIioPPcwNH3magrYziAsXB0Fj8m1dwQBKY5IRuzs=:",
+          "scope": "main",
+          "record_scope": "main",
+          "formats": [],
+          "truncated": true,
+          "counts": {
+            "characters": 9500,
+            "blocks": {
+              "heading": 3,
+              "text": 18
+            },
+            "links": {
+              "page": 12
+            }
+          },
+          "sections": [
+            {
+              "id": "s0",
+              "title": null,
+              "level": 0,
+              "characters": 400,
+              "basis": "structure"
+            },
+            {
+              "id": "s4",
+              "title": "Article 50",
+              "level": 2,
+              "characters": 9100,
+              "basis": "structure"
+            }
+          ],
+          "source": {
+            "url": "https://eur-lex.example/ai-act",
+            "final_url": "https://eur-lex.example/ai-act",
+            "title": "Regulation (EU) 2024/1689",
+            "published_date": "2024-07-12"
+          },
+          "execution": {
+            "version": "1.0.0",
+            "configuration": "cfg-2026-11",
+            "models": [],
+            "elapsed_seconds": 6.2
+          },
+          "cost": {
+            "ceiling": {
+              "amount": "0.0100",
+              "currency": "USD"
+            },
+            "actual": {
+              "amount": "0.0050",
+              "currency": "USD"
+            },
+            "units": {
+              "contents": 1
+            },
+            "replayed": false
+          },
+          "retention": "hold",
+          "run_id": "run_default",
+          "expires_at": "2026-11-07T09:00:03Z"
+        }
+      },
+      {
+        "id": "cand_a27BTvL7IEwl2lokVFjz6n",
+        "url": "https://commentary.example/ai-act-50",
+        "title": "Article 50 AI Act: transparency obligations, a commentary",
+        "language": "en",
+        "media_type": "text/html",
+        "source_profile": {
+          "kind": "scholarly_publisher",
+          "role": "secondary",
+          "independence": "unknown",
+          "review": {
+            "kind": "editorial",
+            "by": null
+          }
+        },
+        "copy_count": 0,
+        "language_versions": [],
+        "carrier": "web",
+        "published_date": "2025-02-03",
+        "published_date_basis": "meta_tag",
+        "published_date_precision": "day",
+        "access": {
+          "kind": "open",
+          "declared_terms": [],
+          "robots": "allowed"
+        },
+        "identifier_matches": [],
+        "relevance_score": 0.81,
+        "excerpts": [
+          {
+            "text": "Article 50 requires providers to mark synthetic output in a machine-readable form …",
+            "wording_index": 0,
+            "origin": "snippet",
+            "truncated": false
+          }
+        ],
+        "matches": [
+          {
+            "wording_index": 0,
+            "datasource_id": "web",
+            "rank": 2
+          }
+        ],
+        "fetch_cost": {
+          "amount": "0.0050",
+          "currency": "USD"
+        }
+      },
+      {
+        "id": "cand_a3fKWtZ0PhMBOSM78lATqf",
+        "url": "https://law-firm.example/briefing",
+        "title": "Client briefing: marking obligations under the AI Act",
+        "language": "en",
+        "media_type": "text/html",
+        "source_profile": {
+          "kind": "professional_practice",
+          "role": "secondary",
+          "independence": "unknown",
+          "review": {
+            "kind": "none",
+            "by": null
+          }
+        },
+        "copy_count": 3,
+        "language_versions": [],
+        "carrier": "web",
+        "published_date": "2025-09-15",
+        "published_date_basis": "byline",
+        "published_date_precision": "day",
+        "access": {
+          "kind": "open",
+          "declared_terms": [],
+          "robots": "allowed"
+        },
+        "identifier_matches": [],
+        "relevance_score": 0.64,
+        "excerpts": [
+          {
+            "text": "From 2 August 2026, deployers and providers must …",
+            "wording_index": 0,
+            "origin": "snippet",
+            "truncated": false
+          }
+        ],
+        "matches": [
+          {
+            "wording_index": 0,
+            "datasource_id": "web",
+            "rank": 5
+          }
+        ],
+        "fetch_cost": {
+          "amount": "0.0050",
+          "currency": "USD"
+        }
+      }
+    ],
+    "counts": {
+      "returned": 3,
+      "found": 41,
+      "dropped": {
+        "not_relevant": 30,
+        "undated": 0,
+        "max_per_domain": 0,
+        "blocked_domain": 0,
+        "outside_allowed": 0,
+        "source_kind": 0,
+        "source_independence": 0,
+        "folded_copy": 8,
+        "phrase_check": 0,
+        "exclusion_check": 0,
+        "beyond_max_candidates": 0
+      }
+    },
+    "end_reason": "relevance",
+    "interpretation": {
+      "canonical_query": "EU AI Act article 50 marking obligations",
+      "phrases": [],
+      "exclusions": [],
+      "operators": [],
+      "wordings": [
+        {
+          "index": 0,
+          "text": "EU AI Act article 50 marking obligations",
+          "language": "en",
+          "language_basis": "detected",
+          "origin": "caller",
+          "result_counts": {
+            "web": 41
+          }
+        }
+      ],
+      "languages_searched": [
+        "en"
+      ]
+    },
+    "applied_request": {
+      "query": "EU AI Act article 50 marking obligations",
+      "datasources": [
+        "web"
+      ],
+      "published_within_days": 365,
+      "undated": "shown",
+      "safe_search": "moderate",
+      "max_per_datasource": 10,
+      "ranking_order": "relevance",
+      "max_candidates": 3,
+      "max_excerpt_characters": 600,
+      "max_total_characters": 40000,
+      "contents": {
+        "top": 1,
+        "max_characters": 8000,
+        "scope": "main",
+        "summary": false
+      },
+      "view": "full",
+      "wait_seconds": 10,
+      "max_cost": {
+        "amount": "0.1000",
+        "currency": "USD"
+      },
+      "deterministic_only": false,
+      "pinned_version": "1.0.0",
+      "run_id": "run_default",
+      "retention": "hold"
+    },
+    "datasources_searched": [
+      {
+        "id": "web",
+        "display_name": "Web",
+        "group": "web",
+        "reason": "default",
+        "outcome": {
+          "kind": "delivered",
+          "reason": "candidates"
+        },
+        "effective_country": "DE",
+        "effective_language": "en",
+        "wordings": [
+          0
+        ],
+        "returned_count": 41,
+        "result_count": 41,
+        "result_count_kind": "exact",
+        "lead_count": 3,
+        "filters_applied": {
+          "allowed_domains": {
+            "state": "not_applicable"
+          },
+          "blocked_domains": {
+            "state": "not_applicable"
+          },
+          "published_from": {
+            "state": "not_applicable"
+          },
+          "published_until": {
+            "state": "not_applicable"
+          },
+          "published_within_days": {
+            "state": "native"
+          },
+          "undated": {
+            "state": "emulated",
+            "how": "pages without a detectable date kept, as asked"
+          },
+          "languages": {
+            "state": "not_applicable"
+          },
+          "media_types": {
+            "state": "not_applicable"
+          },
+          "safe_search": {
+            "state": "native"
+          },
+          "source_kinds": {
+            "state": "not_applicable"
+          },
+          "source_independence": {
+            "state": "not_applicable"
+          },
+          "as_of_date": {
+            "state": "not_applicable"
+          }
+        },
+        "operators_applied": {
+          "phrase": {
+            "state": "not_applicable"
+          },
+          "exclusion": {
+            "state": "not_applicable"
+          },
+          "alternatives": {
+            "state": "not_applicable"
+          },
+          "site": {
+            "state": "not_applicable"
+          },
+          "filetype": {
+            "state": "not_applicable"
+          },
+          "intitle": {
+            "state": "not_applicable"
+          },
+          "inurl": {
+            "state": "not_applicable"
+          },
+          "before": {
+            "state": "not_applicable"
+          },
+          "after": {
+            "state": "not_applicable"
+          },
+          "wildcard": {
+            "state": "not_applicable"
+          }
+        },
+        "access_used": "open",
+        "cost": {
+          "ceiling": {
+            "amount": "0.0100",
+            "currency": "USD"
+          },
+          "actual": {
+            "amount": "0.0010",
+            "currency": "USD"
+          },
+          "units": {
+            "datasource_queries": 1
+          },
+          "replayed": false
+        }
+      }
+    ],
+    "ranking": {
+      "reranked": true,
+      "reranker_version": "rr-2026-10",
+      "min_score": 0.42,
+      "instructions_applied": false,
+      "priorities": [],
+      "order": "relevance",
+      "preferred_domains": [],
+      "merge": "stratified_rank_fusion",
+      "strata": [
+        {
+          "datasource_id": "web",
+          "language": "en",
+          "lead_count": 3
+        }
+      ]
+    },
+    "execution": {
+      "version": "1.0.0",
+      "configuration": "cfg-2026-11",
+      "models": [
+        {
+          "step": "reranking",
+          "version": "rr-2026-10"
+        },
+        {
+          "step": "discovery",
+          "version": "disc-2026-10"
+        }
+      ],
+      "elapsed_seconds": 8.4
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "0.1000",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0200",
+        "currency": "USD"
+      },
+      "units": {
+        "searches": 1,
+        "datasource_queries": 1,
+        "model_steps": 2,
+        "contents": 1
+      },
+      "replayed": false
+    },
+    "searched_at": "2026-11-05T09:00:00Z",
+    "run_id": "run_default",
+    "expires_at": "2026-11-07T09:00:03Z",
+    "request_id": "req_02ARUKU1YFino5zjD2hYpX"
+  },
+  "get_search.delivered": {
+    "id": "srch_4HmUunqCCXquleKVCosqFG",
+    "retention": "hold",
+    "outcome": {
+      "kind": "delivered",
+      "reason": "candidates"
+    },
+    "notices": [],
+    "coverage_gaps": [],
+    "candidates": [
+      {
+        "id": "cand_b7v7hQoJ35NvgmndljizaO",
+        "url": "https://example.org/commentary",
+        "title": "Commentary",
+        "dropped_reason": "not_relevant",
+        "relevance_score": 0.31,
+        "fetch_cost": {
+          "amount": "0.0050",
+          "currency": "USD"
+        },
+        "source_profile": {
+          "kind": "press",
+          "role": "secondary",
+          "independence": "unknown",
+          "review": {
+            "kind": "editorial",
+            "by": null
+          }
+        },
+        "copy_count": 0,
+        "language_versions": [],
+        "carrier": "web",
+        "access": {
+          "kind": "open",
+          "declared_terms": [],
+          "robots": "allowed"
+        },
+        "identifier_matches": [],
+        "excerpts": [],
+        "matches": [
+          {
+            "wording_index": 0,
+            "datasource_id": "web",
+            "rank": 17
+          }
+        ]
+      }
+    ],
+    "counts": {
+      "returned": 3,
+      "found": 41,
+      "dropped": {
+        "not_relevant": 30,
+        "undated": 0,
+        "max_per_domain": 0,
+        "blocked_domain": 0,
+        "outside_allowed": 0,
+        "source_kind": 0,
+        "source_independence": 0,
+        "folded_copy": 8,
+        "phrase_check": 0,
+        "exclusion_check": 0,
+        "beyond_max_candidates": 0
+      }
+    },
+    "end_reason": "relevance",
+    "interpretation": {
+      "canonical_query": "EU AI Act article 50 marking obligations",
+      "phrases": [],
+      "exclusions": [],
+      "operators": [],
+      "wordings": [
+        {
+          "index": 0,
+          "text": "EU AI Act article 50 marking obligations",
+          "language": "en",
+          "language_basis": "detected",
+          "origin": "caller",
+          "result_counts": {
+            "web": 41
+          }
+        }
+      ],
+      "languages_searched": [
+        "en"
+      ]
+    },
+    "applied_request": {
+      "query": "EU AI Act article 50 marking obligations",
+      "datasources": [
+        "web"
+      ],
+      "published_within_days": 365,
+      "undated": "shown",
+      "safe_search": "moderate",
+      "max_per_datasource": 10,
+      "ranking_order": "relevance",
+      "max_candidates": 3,
+      "max_excerpt_characters": 600,
+      "max_total_characters": 40000,
+      "contents": {
+        "top": 1,
+        "max_characters": 8000,
+        "scope": "main",
+        "summary": false
+      },
+      "view": "full",
+      "wait_seconds": 10,
+      "max_cost": {
+        "amount": "0.1000",
+        "currency": "USD"
+      },
+      "deterministic_only": false,
+      "pinned_version": "1.0.0",
+      "run_id": "run_default",
+      "retention": "hold"
+    },
+    "datasources_searched": [
+      {
+        "id": "web",
+        "display_name": "Web",
+        "group": "web",
+        "reason": "default",
+        "outcome": {
+          "kind": "delivered",
+          "reason": "candidates"
+        },
+        "effective_country": "DE",
+        "effective_language": "en",
+        "wordings": [
+          0
+        ],
+        "returned_count": 41,
+        "result_count": 41,
+        "result_count_kind": "exact",
+        "lead_count": 3,
+        "filters_applied": {
+          "allowed_domains": {
+            "state": "not_applicable"
+          },
+          "blocked_domains": {
+            "state": "not_applicable"
+          },
+          "published_from": {
+            "state": "not_applicable"
+          },
+          "published_until": {
+            "state": "not_applicable"
+          },
+          "published_within_days": {
+            "state": "native"
+          },
+          "undated": {
+            "state": "emulated",
+            "how": "pages without a detectable date kept, as asked"
+          },
+          "languages": {
+            "state": "not_applicable"
+          },
+          "media_types": {
+            "state": "not_applicable"
+          },
+          "safe_search": {
+            "state": "native"
+          },
+          "source_kinds": {
+            "state": "not_applicable"
+          },
+          "source_independence": {
+            "state": "not_applicable"
+          },
+          "as_of_date": {
+            "state": "not_applicable"
+          }
+        },
+        "operators_applied": {
+          "phrase": {
+            "state": "not_applicable"
+          },
+          "exclusion": {
+            "state": "not_applicable"
+          },
+          "alternatives": {
+            "state": "not_applicable"
+          },
+          "site": {
+            "state": "not_applicable"
+          },
+          "filetype": {
+            "state": "not_applicable"
+          },
+          "intitle": {
+            "state": "not_applicable"
+          },
+          "inurl": {
+            "state": "not_applicable"
+          },
+          "before": {
+            "state": "not_applicable"
+          },
+          "after": {
+            "state": "not_applicable"
+          },
+          "wildcard": {
+            "state": "not_applicable"
+          }
+        },
+        "access_used": "open",
+        "cost": {
+          "ceiling": {
+            "amount": "0.0100",
+            "currency": "USD"
+          },
+          "actual": {
+            "amount": "0.0010",
+            "currency": "USD"
+          },
+          "units": {
+            "datasource_queries": 1
+          },
+          "replayed": false
+        }
+      }
+    ],
+    "ranking": {
+      "reranked": true,
+      "reranker_version": "rr-2026-10",
+      "min_score": 0.42,
+      "instructions_applied": false,
+      "priorities": [],
+      "order": "relevance",
+      "preferred_domains": [],
+      "merge": "stratified_rank_fusion",
+      "strata": [
+        {
+          "datasource_id": "web",
+          "language": "en",
+          "lead_count": 3
+        }
+      ]
+    },
+    "execution": {
+      "version": "1.0.0",
+      "configuration": "cfg-2026-11",
+      "models": [
+        {
+          "step": "reranking",
+          "version": "rr-2026-10"
+        },
+        {
+          "step": "discovery",
+          "version": "disc-2026-10"
+        }
+      ],
+      "elapsed_seconds": 8.4
+    },
+    "cost": {
+      "ceiling": {
+        "amount": "0.1000",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0200",
+        "currency": "USD"
+      },
+      "units": {
+        "searches": 1,
+        "datasource_queries": 1,
+        "model_steps": 2,
+        "contents": 1
+      },
+      "replayed": false
+    },
+    "searched_at": "2026-11-05T09:00:00Z",
+    "run_id": "run_default",
+    "expires_at": "2026-11-07T09:30:00Z",
+    "request_id": "req_02Bm6tTFlq4Fjkaic7g4OM",
+    "next_page_token": "eyJzIjoic3JjaF80SG0iLCJvIjozfQ"
+  },
+  "search_batch.mixed": {
+    "counts": {
+      "delivered": 1,
+      "partial": 0,
+      "failed": 0,
+      "refused": 0,
+      "needs_person": 0,
+      "skipped": 1
+    },
+    "results": [
+      {
+        "index": 0,
+        "label": "a",
+        "search": {
+          "id": "srch_5JnMVBRlNJRXAtzF4CVX0F",
+          "retention": "hold",
+          "outcome": {
+            "kind": "delivered",
+            "reason": "candidates"
+          },
+          "notices": [],
+          "coverage_gaps": [],
+          "candidates": [
+            {
+              "id": "cand_a1dYqVUaEDEMqh7Qgn8yip",
+              "url": "https://eur-lex.example/ai-act",
+              "title": "Regulation (EU) 2024/1689",
+              "language": "en",
+              "media_type": "text/html",
+              "source_profile": {
+                "kind": "state",
+                "role": "primary",
+                "independence": "unknown",
+                "review": {
+                  "kind": "none",
+                  "by": null
+                }
+              },
+              "copy_count": 2,
+              "language_versions": [],
+              "carrier": "web",
+              "published_date": "2024-07-12",
+              "published_date_basis": "structured_data",
+              "published_date_precision": "day",
+              "access": {
+                "kind": "open",
+                "declared_terms": [],
+                "robots": "allowed"
+              },
+              "identifier_matches": [],
+              "relevance_score": 0.93,
+              "excerpts": [
+                {
+                  "text": "Providers of AI systems … shall ensure …",
+                  "wording_index": 0,
+                  "origin": "snippet",
+                  "truncated": false
+                }
+              ],
+              "matches": [
+                {
+                  "wording_index": 0,
+                  "datasource_id": "web",
+                  "rank": 1
+                }
+              ],
+              "fetch_cost": {
+                "amount": "0.0050",
+                "currency": "USD"
+              }
+            },
+            {
+              "id": "cand_a27BTvL7IEwl2lokVFjz6n",
+              "url": "https://commentary.example/ai-act-50",
+              "title": "Article 50 AI Act: transparency obligations, a commentary",
+              "language": "en",
+              "media_type": "text/html",
+              "source_profile": {
+                "kind": "scholarly_publisher",
+                "role": "secondary",
+                "independence": "unknown",
+                "review": {
+                  "kind": "editorial",
+                  "by": null
+                }
+              },
+              "copy_count": 0,
+              "language_versions": [],
+              "carrier": "web",
+              "published_date": "2025-02-03",
+              "published_date_basis": "meta_tag",
+              "published_date_precision": "day",
+              "access": {
+                "kind": "open",
+                "declared_terms": [],
+                "robots": "allowed"
+              },
+              "identifier_matches": [],
+              "relevance_score": 0.81,
+              "excerpts": [
+                {
+                  "text": "Article 50 requires providers to mark synthetic output in a machine-readable form …",
+                  "wording_index": 0,
+                  "origin": "snippet",
+                  "truncated": false
+                }
+              ],
+              "matches": [
+                {
+                  "wording_index": 0,
+                  "datasource_id": "web",
+                  "rank": 2
+                }
+              ],
+              "fetch_cost": {
+                "amount": "0.0050",
+                "currency": "USD"
+              }
+            },
+            {
+              "id": "cand_a3fKWtZ0PhMBOSM78lATqf",
+              "url": "https://law-firm.example/briefing",
+              "title": "Client briefing: marking obligations under the AI Act",
+              "language": "en",
+              "media_type": "text/html",
+              "source_profile": {
+                "kind": "professional_practice",
+                "role": "secondary",
+                "independence": "unknown",
+                "review": {
+                  "kind": "none",
+                  "by": null
+                }
+              },
+              "copy_count": 3,
+              "language_versions": [],
+              "carrier": "web",
+              "published_date": "2025-09-15",
+              "published_date_basis": "byline",
+              "published_date_precision": "day",
+              "access": {
+                "kind": "open",
+                "declared_terms": [],
+                "robots": "allowed"
+              },
+              "identifier_matches": [],
+              "relevance_score": 0.64,
+              "excerpts": [
+                {
+                  "text": "From 2 August 2026, deployers and providers must …",
+                  "wording_index": 0,
+                  "origin": "snippet",
+                  "truncated": false
+                }
+              ],
+              "matches": [
+                {
+                  "wording_index": 0,
+                  "datasource_id": "web",
+                  "rank": 5
+                }
+              ],
+              "fetch_cost": {
+                "amount": "0.0050",
+                "currency": "USD"
+              }
+            }
+          ],
+          "counts": {
+            "returned": 3,
+            "found": 41,
+            "dropped": {
+              "not_relevant": 30,
+              "undated": 0,
+              "max_per_domain": 0,
+              "blocked_domain": 0,
+              "outside_allowed": 0,
+              "source_kind": 0,
+              "source_independence": 0,
+              "folded_copy": 8,
+              "phrase_check": 0,
+              "exclusion_check": 0,
+              "beyond_max_candidates": 0
+            }
+          },
+          "end_reason": "relevance",
+          "interpretation": {
+            "canonical_query": "EU AI Act article 50 marking obligations",
+            "phrases": [],
+            "exclusions": [],
+            "operators": [],
+            "wordings": [
+              {
+                "index": 0,
+                "text": "EU AI Act article 50 marking obligations",
+                "language": "en",
+                "language_basis": "detected",
+                "origin": "caller",
+                "result_counts": {
+                  "web": 41
+                }
+              }
+            ],
+            "languages_searched": [
+              "en"
+            ]
+          },
+          "applied_request": {
+            "query": "EU AI Act article 50 marking obligations",
+            "datasources": [
+              "web"
+            ],
+            "undated": "shown",
+            "safe_search": "moderate",
+            "max_per_datasource": 10,
+            "ranking_order": "relevance",
+            "max_candidates": 3,
+            "max_excerpt_characters": 600,
+            "max_total_characters": 40000,
+            "view": "full",
+            "wait_seconds": 10,
+            "max_cost": {
+              "amount": "0.0150",
+              "currency": "USD"
+            },
+            "deterministic_only": false,
+            "pinned_version": "1.0.0",
+            "run_id": "run_default",
+            "retention": "hold"
+          },
+          "datasources_searched": [
+            {
+              "id": "web",
+              "display_name": "Web",
+              "group": "web",
+              "reason": "default",
+              "outcome": {
+                "kind": "delivered",
+                "reason": "candidates"
+              },
+              "effective_country": "DE",
+              "effective_language": "en",
+              "wordings": [
+                0
+              ],
+              "returned_count": 41,
+              "result_count": 41,
+              "result_count_kind": "exact",
+              "lead_count": 3,
+              "filters_applied": {
+                "allowed_domains": {
+                  "state": "not_applicable"
+                },
+                "blocked_domains": {
+                  "state": "not_applicable"
+                },
+                "published_from": {
+                  "state": "not_applicable"
+                },
+                "published_until": {
+                  "state": "not_applicable"
+                },
+                "published_within_days": {
+                  "state": "not_applicable"
+                },
+                "undated": {
+                  "state": "emulated",
+                  "how": "pages without a detectable date kept, as asked"
+                },
+                "languages": {
+                  "state": "not_applicable"
+                },
+                "media_types": {
+                  "state": "not_applicable"
+                },
+                "safe_search": {
+                  "state": "native"
+                },
+                "source_kinds": {
+                  "state": "not_applicable"
+                },
+                "source_independence": {
+                  "state": "not_applicable"
+                },
+                "as_of_date": {
+                  "state": "not_applicable"
+                }
+              },
+              "operators_applied": {
+                "phrase": {
+                  "state": "not_applicable"
+                },
+                "exclusion": {
+                  "state": "not_applicable"
+                },
+                "alternatives": {
+                  "state": "not_applicable"
+                },
+                "site": {
+                  "state": "not_applicable"
+                },
+                "filetype": {
+                  "state": "not_applicable"
+                },
+                "intitle": {
+                  "state": "not_applicable"
+                },
+                "inurl": {
+                  "state": "not_applicable"
+                },
+                "before": {
+                  "state": "not_applicable"
+                },
+                "after": {
+                  "state": "not_applicable"
+                },
+                "wildcard": {
+                  "state": "not_applicable"
+                }
+              },
+              "access_used": "open",
+              "cost": {
+                "ceiling": {
+                  "amount": "0.0150",
+                  "currency": "USD"
+                },
+                "actual": {
+                  "amount": "0.0010",
+                  "currency": "USD"
+                },
+                "units": {
+                  "datasource_queries": 1
+                },
+                "replayed": false
+              }
+            }
+          ],
+          "ranking": {
+            "reranked": true,
+            "reranker_version": "rr-2026-10",
+            "min_score": 0.42,
+            "instructions_applied": false,
+            "priorities": [],
+            "order": "relevance",
+            "preferred_domains": [],
+            "merge": "stratified_rank_fusion",
+            "strata": [
+              {
+                "datasource_id": "web",
+                "language": "en",
+                "lead_count": 3
+              }
+            ]
+          },
+          "execution": {
+            "version": "1.0.0",
+            "configuration": "cfg-2026-11",
+            "models": [
+              {
+                "step": "reranking",
+                "version": "rr-2026-10"
+              },
+              {
+                "step": "discovery",
+                "version": "disc-2026-10"
+              }
+            ],
+            "elapsed_seconds": 7.9
+          },
+          "cost": {
+            "ceiling": {
+              "amount": "0.0150",
+              "currency": "USD"
+            },
+            "actual": {
+              "amount": "0.0150",
+              "currency": "USD"
+            },
+            "units": {
+              "searches": 1,
+              "datasource_queries": 1,
+              "model_steps": 2
+            },
+            "replayed": false
+          },
+          "searched_at": "2026-11-05T09:10:00Z",
+          "run_id": "run_default",
+          "expires_at": "2026-11-07T09:10:00Z",
+          "request_id": "req_02Cibui4kSLfZhLrsUYlO2"
+        }
+      },
+      {
+        "index": 1,
+        "label": "b",
+        "problem": {
+          "type": "https://api.getclean.ai/problems/cost-exceeds-cap",
+          "title": "The cost cap is below the smallest call",
+          "detail": "The remainder of max_cost cannot cover this item's smallest call.",
+          "instance": "https://api.getclean.ai/requests/req_02Cibui4kSLfZhLrsUYlO2/items/1",
+          "request_id": "req_02Cibui4kSLfZhLrsUYlO2",
+          "who_must_act": "caller",
+          "retryable": false,
+          "minimum_cap": {
+            "amount": "0.0110",
+            "currency": "USD"
+          }
+        }
+      }
+    ],
+    "cost": {
+      "ceiling": {
+        "amount": "0.0150",
+        "currency": "USD"
+      },
+      "actual": {
+        "amount": "0.0150",
+        "currency": "USD"
+      },
+      "units": {
+        "searches": 1,
+        "datasource_queries": 1,
+        "model_steps": 2
+      },
+      "replayed": false
+    },
+    "request_id": "req_02Cibui4kSLfZhLrsUYlO2"
+  },
+  "list_datasources.first-page": {
+    "datasources": [
+      {
+        "id": "web",
+        "display_name": "Web",
+        "group": "web",
+        "countries": [],
+        "languages": [],
+        "access": {
+          "kind": "open"
+        },
+        "searchable": true,
+        "filters": {
+          "allowed_domains": "native",
+          "blocked_domains": "native",
+          "published_from": "native",
+          "published_until": "native",
+          "published_within_days": "native",
+          "undated": "emulated",
+          "languages": "native",
+          "media_types": "native",
+          "safe_search": "native",
+          "source_kinds": "emulated",
+          "source_independence": "emulated",
+          "as_of_date": "not_applicable"
+        },
+        "operators": {
+          "phrase": "native",
+          "exclusion": "native",
+          "alternatives": "native",
+          "site": "native",
+          "filetype": "native",
+          "intitle": "native",
+          "inurl": "native",
+          "before": "native",
+          "after": "native",
+          "wildcard": "native"
+        },
+        "identifier_schemes": [],
+        "history": false,
+        "card_url": "https://api.getclean.ai/datasources/web",
+        "request_id": "req_02EtiTZXJiQkv6q3XFlqUa"
+      },
+      {
+        "id": "courtlistener",
+        "display_name": "CourtListener",
+        "group": "legal",
+        "countries": [
+          "US"
+        ],
+        "languages": [
+          "en"
+        ],
+        "access": {
+          "kind": "open"
+        },
+        "searchable": true,
+        "filters": {
+          "allowed_domains": "not_applicable",
+          "blocked_domains": "not_applicable",
+          "published_from": "native",
+          "published_until": "native",
+          "published_within_days": "native",
+          "undated": "emulated",
+          "languages": "not_applicable",
+          "media_types": "emulated",
+          "safe_search": "not_applicable",
+          "source_kinds": "not_applicable",
+          "source_independence": "not_applicable",
+          "as_of_date": "not_applicable"
+        },
+        "operators": {
+          "phrase": "native",
+          "exclusion": "native",
+          "alternatives": "native",
+          "site": "not_applicable",
+          "filetype": "not_applicable",
+          "intitle": "emulated",
+          "inurl": "not_applicable",
+          "before": "native",
+          "after": "native",
+          "wildcard": "dropped"
+        },
+        "identifier_schemes": [
+          "docket",
+          "reporter_citation"
+        ],
+        "issuers": {
+          "docket": [
+            "ca9",
+            "cand",
+            "nysd"
+          ]
+        },
+        "history": false,
+        "card_url": "https://api.getclean.ai/datasources/courtlistener",
+        "request_id": "req_02EtiTZXJiQkv6q3XFlqUa"
+      }
+    ],
+    "notices": [],
+    "request_id": "req_02EtiTZXJiQkv6q3XFlqUa"
+  },
+  "get_datasource.entry": {
+    "id": "courtlistener",
+    "display_name": "CourtListener",
+    "group": "legal",
+    "countries": [
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "access": {
+      "kind": "open"
+    },
+    "searchable": true,
+    "filters": {
+      "allowed_domains": "not_applicable",
+      "blocked_domains": "not_applicable",
+      "published_from": "native",
+      "published_until": "native",
+      "published_within_days": "native",
+      "undated": "emulated",
+      "languages": "not_applicable",
+      "media_types": "emulated",
+      "safe_search": "not_applicable",
+      "source_kinds": "not_applicable",
+      "source_independence": "not_applicable",
+      "as_of_date": "not_applicable"
+    },
+    "operators": {
+      "phrase": "native",
+      "exclusion": "native",
+      "alternatives": "native",
+      "site": "not_applicable",
+      "filetype": "not_applicable",
+      "intitle": "emulated",
+      "inurl": "not_applicable",
+      "before": "native",
+      "after": "native",
+      "wildcard": "dropped"
+    },
+    "identifier_schemes": [
+      "docket",
+      "reporter_citation"
+    ],
+    "issuers": {
+      "docket": [
+        "ca9",
+        "cand",
+        "nysd"
+      ]
+    },
+    "history": false,
+    "card_url": "https://api.getclean.ai/datasources/courtlistener",
+    "request_id": "req_02DBMPlcTpjeCo52E9vS45"
+  },
+  "fetch_contents.idempotency-key-in-flight": {
+    "type": "https://api.getclean.ai/problems/idempotency-key-in-flight",
+    "title": "The same request is still running",
+    "status": 409,
+    "detail": "A fetch with this Idempotency-Key is still running; ask again with the same key in 2 seconds.",
+    "instance": "https://api.getclean.ai/requests/req_7nXDWTR71LO0QsrpbfL67K",
+    "request_id": "req_7nXDWTR71LO0QsrpbfL67K",
+    "who_must_act": "caller",
+    "retryable": true,
+    "retry_after_seconds": 2
+  },
+  "highlight_contents.record-without-content": {
+    "type": "https://api.getclean.ai/problems/record-without-content",
+    "title": "The record has no content",
+    "status": 409,
+    "detail": "The record named failed, so it has no text to highlight; fetch the page again and highlight the new record.",
+    "instance": "https://api.getclean.ai/requests/req_5kQ2mZ8vT4wR9nB1cX7pL0",
+    "request_id": "req_5kQ2mZ8vT4wR9nB1cX7pL0",
+    "who_must_act": "caller",
+    "retryable": false,
+    "change": {
+      "operation": "fetch_contents",
+      "field": "url"
+    }
+  },
+  "get_contents.contents-expired": {
+    "type": "https://api.getclean.ai/problems/contents-expired",
+    "title": "The record has expired",
+    "status": 410,
+    "detail": "The record has expired; fetch the page again.",
+    "instance": "https://api.getclean.ai/requests/req_01QEihyEKxtyS4rknqVJEV",
+    "request_id": "req_01QEihyEKxtyS4rknqVJEV",
+    "who_must_act": "caller",
+    "retryable": false,
+    "expired_at": "2026-11-06T12:00:00Z",
+    "change": {
+      "operation": "fetch_contents",
+      "field": "url"
+    }
+  },
+  "fetch_contents.invalid-field": {
+    "type": "https://api.getclean.ai/problems/invalid-field",
+    "title": "A field is invalid",
+    "status": 422,
+    "detail": "formats holds a value outside its set.",
+    "instance": "https://api.getclean.ai/requests/req_01JSUEOJ23EQgBxGjfSpcD",
+    "request_id": "req_01JSUEOJ23EQgBxGjfSpcD",
+    "who_must_act": "caller",
+    "retryable": false,
+    "violations": [
+      {
+        "kind": "not_allowed",
+        "place": "body",
+        "pointer": "/formats/0",
+        "field": "formats",
+        "message": "The value at the pointer is not a value of formats.",
+        "allowed_values": [
+          "markdown",
+          "html",
+          "doclang",
+          "json",
+          "links",
+          "screenshot",
+          "raw_html"
+        ]
+      }
+    ]
+  },
+  "upload_contents.invalid-field": {
+    "type": "https://api.getclean.ai/problems/invalid-field",
+    "title": "A field is invalid",
+    "status": 422,
+    "detail": "document and url exclude each other; send one.",
+    "instance": "https://api.getclean.ai/requests/req_01NdCq5kEHkceDpAo9MfAV",
+    "request_id": "req_01NdCq5kEHkceDpAo9MfAV",
+    "who_must_act": "caller",
+    "retryable": false,
+    "violations": [
+      {
+        "kind": "exclusive",
+        "place": "form",
+        "field": "url",
+        "message": "excludes document"
+      },
+      {
+        "kind": "exclusive",
+        "place": "form",
+        "field": "document",
+        "message": "excludes url"
+      }
+    ]
+  },
+  "fetch_contents.rate-limit-exceeded": {
+    "type": "https://api.getclean.ai/problems/rate-limit-exceeded",
+    "title": "The rate limit is exceeded",
+    "status": 429,
+    "detail": "The key has made its 600 requests of this minute; the window resets in 17 seconds.",
+    "instance": "https://api.getclean.ai/requests/req_yTfAxBwyT38z4lXC1wqHLn",
+    "request_id": "req_yTfAxBwyT38z4lXC1wqHLn",
+    "who_must_act": "caller",
+    "retryable": true,
+    "retry_after_seconds": 17
+  },
+  "fetch_contents.concurrency-limit-exceeded": {
+    "type": "https://api.getclean.ai/problems/concurrency-limit-exceeded",
+    "title": "Too many calls are in flight",
+    "status": 429,
+    "detail": "The key has 20 calls in flight, the most its concurrency policy allows; ask again in 1 second.",
+    "instance": "https://api.getclean.ai/requests/req_vTKyQfD6c9TGtRlIVKiLCb",
+    "request_id": "req_vTKyQfD6c9TGtRlIVKiLCb",
+    "who_must_act": "caller",
+    "retryable": true,
+    "retry_after_seconds": 1
+  },
+  "fill_schema.gateway-error": {
+    "type": "https://api.getclean.ai/problems/gateway-error",
+    "title": "A step behind the service failed",
+    "status": 502,
+    "detail": "The model step that fills the schema gave a bad answer; nothing was billed, and a retry may work.",
+    "instance": "https://api.getclean.ai/requests/req_nPdXW8ob1JmugUbhiwrZTZ",
+    "request_id": "req_nPdXW8ob1JmugUbhiwrZTZ",
+    "who_must_act": "service",
+    "retryable": true
+  },
+  "fetch_contents.overloaded": {
+    "type": "https://api.getclean.ai/problems/overloaded",
+    "title": "The service is overloaded",
+    "status": 503,
+    "detail": "The request could not start within the 30-second queue bound; ask again with the same key in 15 seconds.",
+    "instance": "https://api.getclean.ai/requests/req_dVKh740AKEi99ibtCu8L6w",
+    "request_id": "req_dVKh740AKEi99ibtCu8L6w",
+    "who_must_act": "service",
+    "retryable": true,
+    "retry_after_seconds": 15
+  },
+  "fill_schema.gateway-timeout": {
+    "type": "https://api.getclean.ai/problems/gateway-timeout",
+    "title": "A step behind the service timed out",
+    "status": 504,
+    "detail": "The model step that fills the schema passed its 20-second bound; nothing was billed, and a retry may work.",
+    "instance": "https://api.getclean.ai/requests/req_uARLFe4a7MjE3pzwKAToD8",
+    "request_id": "req_uARLFe4a7MjE3pzwKAToD8",
+    "who_must_act": "service",
+    "retryable": true
+  }
+}
