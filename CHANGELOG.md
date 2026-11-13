@@ -2,7 +2,7 @@
 
 Every notable change to `getclean`, newest first. The format follows Keep a Changelog, and the version numbers follow semantic versioning. Each entry names the version of the getclean API contract the package was generated from.
 
-## Unreleased
+## 0.1.0 - 2026-11-13
 
 The first release of getclean for Python, built against the getclean API contract 1.0.3.
 
